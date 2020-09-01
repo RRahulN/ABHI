@@ -1,0 +1,1 @@
+{"uuid":"ee7ef295-54d0-4f35-828b-ae76a8fbfefe","name":"GSTNewReturnOffline","children":["46bdecfe-1a73-4d36-a9ac-6e1f62186ea0"],"befores":[],"afters":[{"name":"afterSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1593411716012,"stop":1593411716013}],"links":[],"start":1593411477189,"stop":1593411716013}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Pricing" parallel="tests">
+  <parameter name="BrowserName" value="Desktop"/>
+  <parameter name="LoBName" value="Pricing"/>
+  <parameter name="TestScenario_RepositoryFileIndex" value="TCS_Return\TestScenarioSuite\CalculationScanerio\0003_ScenarioSuite.xlsx"/>
+  <parameter name="TestData_RepositoryFile" value="TCS_Return\TestDataSuite\CalculationData\0002_TestDataSuite.xlsx"/>
+  <test verbose="2" name="TCS_MultiInd-Scn2GoldEnhan_0005">
+    <parameter name="ScriptReference" value="CreateNewMULTIINDIVIDUALflowPricing"/>
+    <parameter name="ScenarioID" value="TCS_MultiInd-Scn2GoldEnhan_0005"/>
+    <parameter name="Description" value="Multi-Individual Policy with kid age = 90 days"/>
+    <parameter name="Product" value="Negative"/>
+    <parameter name="Module" value="TCS"/>
+    <parameter name="ScenarioUID" value="TCS_MultiInd-Scn2GoldEnhan_0005"/>
+    <classes>
+      <class name="testRunner.TestExecutionSuite"/>
+    </classes>
+  </test> <!-- TCS_MultiInd-Scn2GoldEnhan_0005 -->
+</suite> <!-- Pricing -->

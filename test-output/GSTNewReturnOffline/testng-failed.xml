@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [GSTNewReturnOffline]">
+  <parameter name="BrowserName" value="Desktop"/>
+  <parameter name="LoBName" value="GSTNewReturnOffline"/>
+  <parameter name="TestScenario_RepositoryFileIndex" value="TCS_Return\TestScenarioSuite\0003_ScenarioSuite.xlsx"/>
+  <parameter name="TestData_RepositoryFile" value="TCS_Return\TestDataSuite\0002_TestDataSuite.xlsx"/>
+  <test thread-count="4" parallel="tests" name="TCS_IndGoldEssen_0015(failed)">
+    <parameter name="ScriptReference" value="CreateNewINDIVIDUALflow"/>
+    <parameter name="ScenarioID" value="TCS_IndGoldEssen_0015"/>
+    <parameter name="Description" value="Relation is Mother -  Gender cannot be male"/>
+    <parameter name="Product" value=""/>
+    <parameter name="Module" value="TCS"/>
+    <parameter name="ScenarioUID" value="TCS_IndGoldEssen_0015"/>
+    <classes>
+      <class name="testRunner.TestExecutionSuite">
+        <methods>
+          <include name="executionSuite" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testRunner.TestExecutionSuite -->
+    </classes>
+  </test> <!-- TCS_IndGoldEssen_0015(failed) -->
+</suite> <!-- Failed suite [GSTNewReturnOffline] -->
